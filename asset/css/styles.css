@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cbd18f;
+    margin: 0;
+    padding: 0;
+    color: #3E363F;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #73A580;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1em;
+}
+
+input, select {
+    padding: 8px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin: 5px 10px;
+}
+
+button {
+    background-color: #73A580;
+    border: none;
+    padding: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+button:focus {
+    outline: none;
+}
+
+input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+select {
+    padding: 8px;
+    font-size: 1em;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="asset/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cite Registration Form</h1>
+        <p>Fill in this form to register</p>
+        <form id="registerForm" action="submit.php" method="POST" target="_blank">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required><br>
+
+            <label for="middle-name">Middle Name</label>
+            <input type="text" id="middle-name" name="middle-name" placeholder="Enter your middle name" required><br>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required><br>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Enter your e-mail" required><br>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="batch">Batch</label>
+            <select id="batch" name="batch" required>
+                <option value="">Select Batch</option>
+                <option value="B33">B33</option>
+                <option value="B34">B34</option>
+                <option value="B35">B35</option>
+            </select><br>
+
+            <label for="school-id">School-ID</label>
+            <input type="school-id" id="school-id" name="school-id"required><br>
+                        
+            <label for="technology">Technology</label>
+            <select id="technology" name="technology" required>
+                <option value="Diploma for Computer Engineering Technology">Diploma for Computer Engineering Technology</option>
+                <option value="Diploma for Mechanical Engineering Technology">Diploma for Mechanical Engineering Technology</option>
+                <option value="Diploma for Electrical Engineering Technology">Diploma for Electrical Engineering Technology</option>
+                <option value="Diploma for Electronics Engineering Technology">Diploma for Electronics Engineering Technology</option>
+            </select><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="asset/js/script.js"></script>
+</body>
+</html>
